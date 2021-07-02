@@ -3,9 +3,7 @@ import {  I18N } from './config'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  generate: {
-    dir: 'my-site'
-  },
+  
   router:{
     base:'/coinaxe-landingpage/'
   },
