@@ -3,7 +3,12 @@ import {  I18N } from './config'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  generate: {
+    dir: 'my-site'
+  },
+  router:{
+    base:'/coinaxe-landingpage/'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'coinaxe',
@@ -23,6 +28,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
@@ -53,7 +59,11 @@ export default {
   i18n: {...I18N},
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  },
- 
+    extend(config, ctx) {
+      if(!ctx.isDev) {
+        config.output.publicPath = '_nuxt/'
+     }
+  }
+}
 
 }

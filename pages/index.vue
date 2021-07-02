@@ -27,8 +27,6 @@
 export default {
 
   name:'LandingPage',
-  data(){
 
-  }
 }
 </script>

@@ -1,17 +1,17 @@
 export default {
     heroTitle:'SOFTWARE HOUSE',
-    heroSlogan:'Dostarczanie aplikacji i oprogramowania dla start-upów i klientów korporacyjnych, poprzez wykorzystanie najnowszych technologii i rozwiązań.',
-    more:'więcej',
-    contact:'kontakt',
+    heroSlogan:'We provide applications and software for start-ups and corporate clients using the latest technologies and solutions.',
+    more:'more',
+    contact:'contect',
     navbar:{
         home:'home',
-        service:'usługi',
-        howWork:'jak pracujemy',
-        about:'o nas',
-        contact:'Kontakt'
+        service:'services',
+        howWork:'how do we work',
+        about:'about us',
+        contact:'contact'
     },
-    services:'usługi',
-    servicesDescription:'Poznaj nasze usługi i skorzystaj z nich. Nasz szeroki wachlarz oraz profesjonalne podejście sprawi, że będziesz realizował swoje cele biznesowe w najnowszych technologiach i rozwiązaniach!',
+    services:'services',
+    servicesDescription:'Meet the wide range of our services together with professional approach that will help you realize your business goals using the latest technology and solutions.    ',
     servicesItems:{
         softwareDevelopment:'Software development',
         softwareDevelopmentDescription:'Use many years of our experience in the area of software development for enterprises/businesses, system modernization and consolidation of appliaction wallet. We will help you achieve sustained success through redesigning solutions of different complexity.',

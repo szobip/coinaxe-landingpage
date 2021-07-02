@@ -4,6 +4,11 @@ import pl from '../lang/pl.js'
 export const API_ROOT = ''
 
 export const I18N = {
+  detectBrowserLanguage: {
+    useCookie: true,
+    alwaysRedirect: true
+  },
+  fallbackLocale:'en',
   locales: [
     {
       code: 'en',
@@ -18,6 +23,7 @@ export const I18N = {
  
   ],
   defaultLocale: 'en',
+
   routes: {
  
   },
