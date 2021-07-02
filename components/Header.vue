@@ -6,7 +6,7 @@
             ><img src="coinaxe_logo.png" alt="COINAXE" />
           </a>
          
-            <ul class="navbar__menu">
+            <ul class="navbar__menu"   :class="isOpen ? 'open' : null">
                 <li class="navbar__item"><a href="#" class="navbar__link">{{$t('navbar.home')}}</a></li>
                 <li class="navbar__item"><a href="#" class="navbar__link">{{$t('navbar.service')}}</a></li>
                 <li class="navbar__item"><a href="#" class="navbar__link">{{$t('navbar.howWork')}}</a></li>
