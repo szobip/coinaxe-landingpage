@@ -2,7 +2,6 @@
   "name": "coinaxe",
   "version": "1.0.0",
   "private": true,
-  
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -12,7 +11,6 @@
     "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
     "lint": "yarn lint:js && yarn lint:style",
     "deploy": "push-dir --dir=dist --branch=gh-pages"
-
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
@@ -26,6 +24,7 @@
     "@nuxtjs/eslint-config": "^6.0.1",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/stylelint-module": "^4.0.0",
+    "@nuxtjs/svg": "^0.1.12",
     "eslint": "^7.29.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^2.0.0",
