@@ -1,0 +1,32 @@
+.boxes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: $dark;
+}
+.box {
+  display: flex;
+  flex-basis: auto;
+  margin-bottom: 40px;
+  .left {
+    width: 45px;
+    height: 45px;
+    background: $red;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    font-weight: 500;
+  }
+  .right {
+    flex: 1;
+  }
+  h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  p {
+    font-weight: 600;
+  }
+}

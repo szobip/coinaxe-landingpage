@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="services">
     <div class="container">
       <section-title
         :title="$t('services')"
@@ -38,29 +38,29 @@ export default {
           icon: 'laptop-code',
         },
         {
-          title: 'softwareDevelopment',
-          desc: 'softwareDevelopmentDescription',
-          icon: 'code-solid',
+          title: 'mobileApps',
+          desc: 'mobileAppsDescription',
+          icon: 'mobile',
         },
         {
-          title: 'softwareDevelopment',
-          desc: 'softwareDevelopmentDescription',
-          icon: 'laptop-code',
+          title: 'itCoach',
+          desc: 'itCoachDescription',
+          icon: 'laptop-solid',
         },
         {
-          title: 'softwareDevelopment',
-          desc: 'softwareDevelopmentDescription',
-          icon: 'laptop-code',
+          title: 'uiux',
+          desc: 'uiuxDescription',
+          icon: 'diagram',
         },
         {
-          title: 'softwareDevelopment',
-          desc: 'softwareDevelopmentDescription',
-          icon: 'laptop-code',
+          title: 'testing',
+          desc: 'testingDescription',
+          icon: 'bracket',
         },
         {
-          title: 'softwareDevelopment',
-          desc: 'softwareDevelopmentDescription',
-          icon: 'laptop-code',
+          title: 'team',
+          desc: 'teamDescription',
+          icon: 'team',
         },
       ],
     }

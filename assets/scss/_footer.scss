@@ -1,0 +1,26 @@
+.footer {
+  padding: 80px 0 40px 0;
+  text-align: center;
+  h5 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  @include media-breakpoint-up(md) {
+    text-align: left;
+  }
+}
+
+.footer-address {
+  font-size: 14px;
+  margin-bottom: 10px;
+  svg {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    path {
+      stroke: $red;
+      fill: $red;
+    }
+  }
+}

@@ -6,28 +6,25 @@ export const API_ROOT = ''
 export const I18N = {
   detectBrowserLanguage: {
     useCookie: true,
-    alwaysRedirect: true
+    alwaysRedirect: true,
   },
-  fallbackLocale:'en',
+  fallbackLocale: 'en',
   locales: [
     {
       code: 'en',
       iso: 'en-US',
-      name: 'English'
+      name: 'English',
     },
     {
       code: 'pl',
       iso: 'pl-PL',
-      name: 'Poland'
+      name: 'Poland',
     },
- 
   ],
   defaultLocale: 'en',
-
-  routes: {
- 
-  },
+  seo: false,
+  routes: {},
   vueI18n: {
-    messages: { en, pl }
-  }
+    messages: { en, pl },
+  },
 }

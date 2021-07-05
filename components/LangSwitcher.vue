@@ -3,7 +3,6 @@
     <span
       id="langSwitcher"
       data-toggle="dropdown"
-      type="button"
       aria-haspopup="true"
       aria-expanded="false"
       class="navbar__link dropdown-toggle"
