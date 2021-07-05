@@ -48,19 +48,25 @@ section {
   margin-bottom: 100px;
 }
 .section-title {
-  font-size: 36px;
+  font-size: 28px;
   color: #222551;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 15px;
+  @include media-breakpoint-up(md) {
+    font-size: 36px;
+  }
 }
 .section-description {
   color: #181a1e;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
 
   font-weight: 400;
+  @include media-breakpoint-up(md) {
+    font-size: 16px;
+  }
 }
 .progress-box {
   margin-bottom: 100px;

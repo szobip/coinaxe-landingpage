@@ -51,7 +51,11 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'nuxt-i18n',
+    '@nuxtjs/sitemap',
   ],
+  sitemap: {
+    hostname: 'https://coinaxe.eu',
+  },
   i18n: { ...I18N },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

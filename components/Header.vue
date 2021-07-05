@@ -2,9 +2,7 @@
   <header class="header">
     <div class="container">
       <nav class="navbar">
-        <a href="http://gamerhash.com/" class="logo"
-          ><img src="logo.png" alt="COINAXE" />
-        </a>
+        <a href="/" class="logo"><img src="logo.png" alt="COINAXE" /> </a>
 
         <ul class="navbar__menu" :class="isOpen ? 'open' : null">
           <li class="navbar__item">
