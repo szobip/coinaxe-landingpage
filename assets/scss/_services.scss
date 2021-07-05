@@ -5,6 +5,9 @@
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 10px;
+    @include media-breakpoint-only(lg) {
+      padding-left: 20px;
+    }
   }
   p {
     font-size: 14px;
@@ -15,7 +18,7 @@
 .services-icon {
   position: absolute;
   left: 20px;
-  top: 0px;
+  top: -6px;
   width: 35px;
   height: 35px;
   svg,
