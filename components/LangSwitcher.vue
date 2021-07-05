@@ -5,10 +5,11 @@
       data-toggle="dropdown"
       aria-haspopup="true"
       aria-expanded="false"
-      class="navbar__link dropdown-toggle"
+      class="navbar__link navbar__link--red navbar__dropdown"
     >
       <img :src="`${currentLocale.code}.png`" :alt="currentLocale.name" />
       {{ currentLocale.name }}
+      <ArrowIcon />
     </span>
     <div
       :class="langOpen ? 'd-block' : null"
@@ -20,15 +21,21 @@
         :key="locale.code"
         class="dropdown-item"
         :to="switchLocalePath(locale.code)"
-        >{{ locale.name }}</nuxt-link
+      >
+        <img :src="`${locale.code}.png`" :alt="locale.name" />
+
+        {{ locale.name }}</nuxt-link
       >
     </div>
   </li>
 </template>
 
 <script>
+import ArrowIcon from '~/assets/svg/arrow.svg?inline'
+
 export default {
   name: 'LangSwitcher',
+  components: { ArrowIcon },
   data() {
     return {
       currentLang: 'PL',

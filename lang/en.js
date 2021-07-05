@@ -1,14 +1,14 @@
 export default {
   seo: {
-    title: 'CoinAxe – Tworzymy i rozwijamy oprogramowanie i aplikacje',
+    title: 'CoinAxe – We create, develop software and applications',
     description:
-      'Dostarczanie aplikacji i oprogramowania dla start-upów i klientów korporacyjnych, poprzez wykorzystanie najnowszych technologii i rozwiązań.',
+      'We provide applications and software for start-ups and corporate clients using the latest technologies and solutions.',
   },
   heroTitle: 'SOFTWARE HOUSE',
   heroSlogan:
     'We provide applications and software for start-ups and corporate clients using the latest technologies and solutions.',
   more: 'more',
-  contact: 'contect',
+  contact: 'contact',
   navbar: {
     home: 'home',
     service: 'services',
@@ -16,14 +16,14 @@ export default {
     about: 'about us',
     contact: 'contact',
   },
-  services: 'services',
+  services: 'Our services',
   servicesDescription:
     'Meet the wide range of our services together with professional approach that will help you realize your business goals using the latest technology and solutions.    ',
   servicesItems: {
     softwareDevelopment: 'Software development',
     softwareDevelopmentDescription:
       'Use many years of our experience in the area of software development for enterprises/businesses, system modernization and consolidation of appliaction wallet. We will help you achieve sustained success through redesigning solutions of different complexity.',
-    mobileApps: 'Tworzenie aplikacji mobilnych',
+    mobileApps: 'Development of mobile applications',
     mobileAppsDescription:
       'Oferujemy pełen cykl usług projektowania, integracji i zarządzania aplikacjami. Niezależnie od tego, czy jest to aplikacja zorientowana na konsumenta, czy rozwiązanie klasy korporacyjnej. Prowadzimy cały proces tworzenia aplikacji mobilnej od pomysłu i koncepcji po dostarczenie i stałe wsparcie.',
     itCoach: 'IT consulting',

@@ -20,7 +20,7 @@ export default {
   head() {
     const i18nHead = this.$nuxtI18nHead({ addSeoAttributes: true })
     return {
-      title: this.$t('title'),
+      title: this.$t('seo.title'),
       meta: [
         {
           hid: 'description',

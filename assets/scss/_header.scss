@@ -4,6 +4,9 @@
   top: 0;
   z-index: 2;
   width: 100%;
+  @include media-breakpoint-up(md) {
+    height: 80px;
+  }
 }
 
 .navbar {
@@ -11,6 +14,9 @@
   justify-content: space-between;
   align-items: center;
   height: 50px;
+  @include media-breakpoint-up(md) {
+    height: 100%;
+  }
   .logo {
     width: 120px;
     height: auto;
@@ -69,6 +75,28 @@
     }
     @include media-breakpoint-up(md) {
       font-size: 14px;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 16px;
+    }
+    &--red {
+      color: $red;
+    }
+  }
+  &__dropdown {
+    img {
+      margin-right: 5px;
+    }
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    svg {
+      width: 12px !important;
+      margin-left: 5px;
+      height: 10px;
+    }
+    path {
+      fill: $red;
     }
   }
 }

@@ -69,6 +69,11 @@ export default {
       isOpen: false,
     }
   },
+  watch: {
+    '$route.hash'() {
+      this.isOpen = false
+    },
+  },
 }
 </script>
 

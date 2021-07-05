@@ -137,3 +137,7 @@ section {
   background: $red;
   margin: 50px 0;
 }
+
+.btn.nuxt-link-active {
+  color: inherit !important;
+}

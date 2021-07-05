@@ -18,7 +18,7 @@ export const I18N = {
     {
       code: 'pl',
       iso: 'pl-PL',
-      name: 'Poland',
+      name: 'Polski',
     },
   ],
   defaultLocale: 'en',

@@ -9,7 +9,7 @@ export default {
     scrollBehavior(to) {
       if (to.hash) {
         return window.scrollTo({
-          top: document.querySelector(to.hash).offsetTop + window.innerHeight,
+          top: document.querySelector(to.hash).offsetTop,
           behavior: 'smooth',
         })
       }
