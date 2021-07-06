@@ -60,7 +60,7 @@ export default {
   whoWeAreItems: {
     knowledge: 'wiedza',
     knowledgeDescription:
-      'Nasi specjaliści gwarantują rozwiązania oparte o nanowsze technologie. WIeloletnie doświadczenie i kierunkowe wykształcenie pozwala nam osiągać wyznaczone cele i realizować rzeczy niemożliwe.',
+      'Nasi specjaliści gwarantują rozwiązania oparte o najnowsze technologie. WIeloletnie doświadczenie i kierunkowe wykształcenie pozwala nam osiągać wyznaczone cele i realizować rzeczy niemożliwe.',
     expirience: 'doświadczenie',
     expirienceDescription:
       'Doświadczenie w wielu projektach naszych developerów, testerów i projektantów pozwala nam dostarczyć Ci rozwiązań opartych na najlepszych praktykach.',

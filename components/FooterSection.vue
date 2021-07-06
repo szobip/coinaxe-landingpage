@@ -12,7 +12,7 @@
               <PinIcon />14 East, Level 5, Sliema Road, GZR 1639 Gzira, Malta
             </li>
             <li class="footer-address">
-              <a class="reset-link" href="@mailto:office@coinaxe.eu"
+              <a class="reset-link" href="mailto:office@coinaxe.eu"
                 ><MailIcon />office@coinaxe.eu
               </a>
             </li>

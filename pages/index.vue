@@ -31,5 +31,10 @@ export default {
       ],
     }
   },
+  watch: {
+    '$route.hash'() {
+      this.$router.push(this.$route.path)
+    },
+  },
 }
 </script>
