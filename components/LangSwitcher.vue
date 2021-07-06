@@ -20,7 +20,7 @@
         v-for="locale in availableLocales"
         :key="locale.code"
         class="dropdown-item"
-        :to="switchLocalePath(locale.code)"
+        :to="switchLocalePath(locale.code).split('#')[0]"
       >
         <img :src="`${locale.code}.png`" :alt="locale.name" />
 

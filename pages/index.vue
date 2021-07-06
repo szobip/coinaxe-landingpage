@@ -32,8 +32,13 @@ export default {
     }
   },
   watch: {
-    '$route.hash'() {
-      this.$router.push(this.$route.path)
+    '$route.hash'(news) {
+      console.log(news)
+      if (news.lenght > 0) {
+        this.$router.push({ path: this.$route.path, hash: '' })
+      }
+
+      // this.$router.push(this.$route.path)
     },
   },
 }
